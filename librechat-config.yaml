@@ -11,4 +11,6 @@ mcpServers:
     url: https://directus-production-e5ad.up.railway.app/mcp
     type: streamable-http
     iconPath: /home/user/LibreChat/client/public/assets/logo.svg
+    headers:
+      Authorization: "Bearer {{DIRECTUS_TOKEN}}"
     
