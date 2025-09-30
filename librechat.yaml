@@ -6,8 +6,6 @@ registration:
   socialLogins:
     - "openid"
 
-endpoints:
-
 mcpServers:
   directus:
     url: https://directus-production-e5ad.up.railway.app/mcp
