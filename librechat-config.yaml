@@ -9,8 +9,7 @@ registration:
 mcpServers:
   directus:
     url: https://directus-production-e5ad.up.railway.app/mcp
-    type: streamable-http
-    iconPath: /home/user/LibreChat/client/public/assets/logo.svg
+    type: sse
     headers:
-      Authorization: "Bearer {{DIRECTUS_TOKEN}}"
+      Authorization: "Bearer ${DIRECTUS_TOKEN}"
     
