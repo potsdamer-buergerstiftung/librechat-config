@@ -9,7 +9,7 @@ registration:
 mcpServers:
   directus:
     url: https://directus-production-e5ad.up.railway.app/mcp
-    type: sse
+    type: streamable-http
     headers:
       Authorization: "Bearer ${DIRECTUS_TOKEN}"
     
